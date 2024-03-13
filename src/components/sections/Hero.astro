@@ -2,9 +2,21 @@
 // This code is executed in the server
 import { basics } from '@cv'
 import Section from '@/components/Section.astro'
+import Mail from '@/icons/Mail.astro'
+import Phone from '@/icons/Phone.astro'
+import X from '@/icons/X.astro'
+import LinkedIn from '@/icons/LinkedIn.astro'
+import GitHub from '@/icons/GitHub.astro'
+import WorldMap from '@/icons/WorldMap.astro'
 
 const { name, label, image, email, phone, location, profiles } = basics
 const { city, region } = location
+
+const SOCIAL_ICONS: Record<string, any> = {
+    X,
+    LinkedIn,
+    GitHub
+}
 ---
 
 <Section>
@@ -13,7 +25,7 @@ const { city, region } = location
             <h1>{name}</h1>
             <h2>{label}</h2>
             <span>
-                <!-- Icon -->
+                <WorldMap />
                 {city}, {region}
             </span>
             <footer>
@@ -21,13 +33,41 @@ const { city, region } = location
                     email && (
                         <a 
                             href={`mailto:${email}`}
-                            title={`Sen an email to ${name} at ${email}`}
+                            title={`Send an email to ${name} at ${email}`}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            {email}
+                            <Mail />
                         </a>
                     )
+                }
+                {
+                    phone && (
+                        <a 
+                            href={`tel:${phone}`}
+                            title={`Call to ${name} at number ${phone}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Phone />
+                        </a>
+                    )
+                }
+                {
+                    profiles.map((profile) => {
+                        const { network, url } = profile
+                        const Icon = SOCIAL_ICONS[network] || X
+                        return (
+                            <a 
+                                href={url}
+                                title={`Visit ${name} profile at ${network}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Icon />
+                            </a>
+                        )
+                    })
                 }
             </footer>
         </div>
@@ -38,5 +78,72 @@ const { city, region } = location
 </Section>
 
 <style>
-    
+
+    /* Los estilos en Astro tienen un ámbito local, es decir que no tengo   que nombrar con clases los elementos si no quiero, porque por ejemplo 'h1' se referirá solo a los 'h1' de este fichero */
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-right: 32px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        color: #444;
+        font-weight: 500;
+        text-wrap: balance;
+    }
+
+    span {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        color: #666;
+        font-size: 0.85rem;
+        letter-spacing: -0.05rem;
+    }
+
+    img {
+        width: 128px;
+        aspect-ratio: 1/1;
+        border-radius: 16px;
+        object-fit: cover;
+    }
+
+    footer {
+        display: flex;
+        gap: 4px;
+        margin-top: 8px;
+    }
+
+    footer a {
+        color: #777;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+        padding: 4px;
+        border: 1px solid #eee;
+    }
+
+    footer a:hover {
+        background-color: #eee;
+        border-color: #ddd;
+    }
+
 </style>

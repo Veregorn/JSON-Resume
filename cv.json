@@ -1,36 +1,53 @@
 {
     "basics": {
       "name": "Raul Jimenez",
-      "label": "Full Stack Developer",
+      "label": "Full Stack Developer con ganas de contribuir al mundo.",
       "image": "https://franchisematch.com/wp-content/uploads/2015/02/john-doe.jpg",
       "email": "rjbarco@gmail.com",
       "phone": "+34 666 183 566",
       "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
+      "summary": "Soy un apasionado de las nuevas tecnologías y me encanta crear programas que sean útiles para la gente y que ayuden a crear un mundo mejor. Me encanta aprender y mantenerme al día con mi stack tecnológico. Ahora mismo estoy centrado en mi aprendizaje para convertirme en un desarrollador full stack competente que pronto pueda colaborar con un equipo de personas que tenga la misma ilusión que tengo yo.",
       "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
+        "address": "Calle del Labrador, 6, Portal 7, Ático A",
+        "postalCode": "28600",
+        "city": "Navalcarnero",
+        "countryCode": "ES",
+        "region": "Madrid"
       },
       "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
+        "network": "X",
+        "username": "rul_ex",
+        "url": "https://x.com/rul_ex"
+      },
+      {
+        "network": "GitHub",
+        "username": "veregorn",
+        "url": "https://github.com/veregorn"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "rjbarco",
+        "url": "https://www.linkedin.com/in/rjbarco"
       }]
     },
-    "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }],
+    "work": [
+        {
+          "name": "Trabajador Autónomo",
+          "position": "Desarrollador Full Stack",
+          "url": "",
+          "startDate": "2007-01-09",
+          "endDate": null,
+          "summary": "Trabajo por cuenta propia desarrollando diversas infraestructuras empresariales y aplicaciones web. Desarrollo de CMS y web corporativa para la empresa Guiagas Asistencia SL. Desarrollo de CMS y web corporativa para la empresa Hogar 2.0 SL. Gerencia del Negocio en las 2 empresas anteriores."
+        },
+        {
+          "name": "Atos Spain SA",
+          "position": "Programador Junior",
+          "url": "https://atos.net",
+          "startDate": "2005-09-12",
+          "endDate": "2007-01-09",
+          "summary": "Desarrollo del backend monetario trabajando en cliente (Banco Santander)."
+        }
+    ],
     "volunteer": [{
       "organization": "Organization",
       "position": "Volunteer",
@@ -42,18 +59,14 @@
         "Awarded 'Volunteer of the Month'"
       ]
     }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
+    "education": [
+      {
+        "institution": "Universidad Rey Juan Carlos de Madrid",
+        "summary": "Diplomado en Ingeniería Técnica en Informática de Gestión",
+        "startDate": "2000-09-01",
+        "endDate": "2003-06-01"
+      }
+    ],
     "awards": [{
       "title": "Award",
       "date": "2014-11-01",
@@ -73,15 +86,79 @@
       "url": "https://publication.com",
       "summary": "Description…"
     }],
-    "skills": [{
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web",
+          "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web",
+          "Frontend"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Advanced",
+        "keywords": [
+          "Desarrollo Web",
+          "Frontend"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "level": "Intermediate",
+        "keywords": [
+          "Desarrollo Web",
+          "Backend"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Intermediate",
+        "keywords": [
+          "Desarrollo Web",
+          "Frontend"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Intermediate",
+        "keywords": [
+          "Tools"
+        ]
+      },
+      {
+        "name": "Python",
+        "level": "Advanced",
+        "keywords": [
+          "Desarrollo Web",
+          "Backend"
+        ]
+      },
+      {
+        "name": "MySQL",
+        "level": "Intermediate",
+        "keywords": [
+          "Desarrollo Web",
+          "Backend"
+        ]
+      },
+      {
+        "name": "Vitest",
+        "level": "Intermediate",
+        "keywords": [
+          "Tools",
+          "Pruebas"
+        ]
+      }
+    ],
     "languages": [{
       "language": "English",
       "fluency": "Native speaker"
