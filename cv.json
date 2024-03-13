@@ -174,14 +174,89 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    }]
+    "projects": [
+      {
+        "name": "Project 1",
+        "isActive": true,
+        "description": "Description...",
+        "highlights": [
+          "Won award at AIHacks 2016"
+        ],
+        "url": "https://project1.com/"
+      },
+      {
+        "name": "Project 2",
+        "isActive": false,
+        "description": "Description...",
+        "highlights": [
+          "Awarded 'Volunteer of the Month'"
+        ],
+        "url": "https://project2.com/"
+      },
+      {
+        "name": "Project 3",
+        "isActive": true,
+        "description": "Description...",
+        "highlights": [
+          "Elige tu propia aventura"
+        ],
+        "url": "https://project3.com/"
+      },
+      {
+        "name": "Project 4",
+        "isActive": false,
+        "description": "Description...",
+        "highlights": [
+          "En desarrollo"
+        ],
+        "url": "https://project4.com/"
+      },
+      {
+        "name": "Project 5",
+        "isActive": true,
+        "description": "Description...",
+        "highlights": [
+          "+1 millón de visitas",
+          "Multi idioma",
+          "Responsive"
+        ],
+        "url": "https://project5.com/"
+      },
+      {
+        "name": "Project 6",
+        "isActive": false,
+        "description": "Description...",
+        "highlights": [
+          "Javascript & TypeScript"
+        ],
+        "url": "https://project6.com/"
+      },
+      {
+        "name": "Project 7",
+        "isActive": true,
+        "description": "Description...",
+        "highlights": [
+          "Awarded 'Volunteer of the Month'"
+        ],
+        "url": "https://project7.com/"
+      },
+      {
+        "name": "Project 8",
+        "isActive": false,
+        "description": "Description...",
+        "highlights": [
+          "Awarded 'Volunteer of the Month'"
+        ],
+        "url": "https://project8.com/"
+      },
+      {
+        "name": "Project 9",
+        "isActive": true,
+        "description": "Description...",
+        "highlights": [
+          "Awarded 'Volunteer of the Month'"
+        ],
+        "url": "https://project9.com/"
+      }
+    ]
   }

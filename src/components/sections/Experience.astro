@@ -4,7 +4,7 @@ import Section from '@/components/Section.astro'
 import { work } from '@cv'
 ---
 
-<Section title="Experience">
+<Section title="Experiencia laboral">
     <ul>
         {work.map(({ name, startDate, endDate, position, summary }) => {
             const starYear = new Date(startDate).getFullYear()
@@ -40,11 +40,13 @@ import { work } from '@cv'
     article h3 {
         font-weight: 500;
         color: #111;
+        margin-bottom: 4px;
     }
 
     article h4 {
         font-weight: 400;
         color: #222;
+        margin-bottom: 4px;
     }
 
     header {
