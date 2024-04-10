@@ -15,3 +15,6 @@ https://github.com/midudev/
 
 # How to use it
 Edit 'cv.json' file with your own data to have your CV
+
+# Try it here
+https://grand-bombolone-08bc91.netlify.app/
