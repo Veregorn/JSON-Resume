@@ -12,3 +12,6 @@ https://github.com/BartoszJarocki/cv
 
 # Reinterpreted by:
 https://github.com/midudev/
+
+# How to use it
+Edit 'cv.json' file with your own data to have your CV
