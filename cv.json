@@ -2,11 +2,11 @@
     "basics": {
       "name": "Raul Jimenez",
       "label": "Full Stack Developer con ganas de contribuir al mundo.",
-      "image": "https://franchisematch.com/wp-content/uploads/2015/02/john-doe.jpg",
+      "image": "/public/IMG_5668.jpeg",
       "email": "rjbarco@gmail.com",
       "phone": "+34 666 666 666",
-      "url": "https://johndoe.com",
-      "summary": "Soy un apasionado de las nuevas tecnologías y me encanta crear programas que sean útiles para la gente y que ayuden a crear un mundo mejor. Me encanta aprender y mantenerme al día con mi stack tecnológico. Ahora mismo estoy centrado en mi aprendizaje para convertirme en un desarrollador full stack competente que pronto pueda colaborar con un equipo de personas que tenga la misma ilusión que tengo yo.",
+      "url": "",
+      "summary": "Soy un apasionado de las nuevas tecnologías y me encanta crear programas que sean útiles para la gente y que ayuden a crear un mundo mejor.\nMe encanta aprender y mantenerme al día con mi stack tecnológico. Ahora mismo estoy centrado en encontrar un proyecto en el que pueda contribuir con mi experiencia, y colaborar con un equipo de personas que tenga la misma ilusión que tengo yo.\nHe realizado varios proyectos propios en Python y Javascript (React + Node) dominando también HTML y CSS de forma avanzada.\nTengo soltura en el manejo de Bases de Datos de tipo relacional con MySQL y no relacionales con MongoDB.\nAdemás estoy inmerso en la mejora de mi speaking en Inglés, ya que me encantaría poder trabajar con gente de otras culturas distintas a la mía. Mi nivel actual es B2-C1 en speaking, pudiendo leer y escribir en este idioma de forma fluida.\nEstoy familiarizado con metodologías de trabajo Agile y SCRUM implementadas a través de plataformas como Jira o Trello.\nPor último, soy un convencido del Test Driven Development (TDD), el cual he implementado en mis proyectos a través de Jest aunque últimamente lo he sustituido por Vitest.",
       "location": {
         "address": "Calle del Labrador, 6, Portal 7, Ático A",
         "postalCode": "28600",
@@ -157,6 +157,54 @@
           "Tools",
           "Pruebas"
         ]
+      },
+      {
+        "name": "Jest",
+        "level": "Intermediate",
+        "keywords": [
+          "Tools",
+          "Pruebas"
+        ]
+      },
+      {
+        "name": "MongoDB",
+        "level": "Intermediate",
+        "keywords": [
+          "Desarrollo Web",
+          "Backend"
+        ]
+      },
+      {
+        "name": "Agile",
+        "level": "Intermediate",
+        "keywords": [
+          "Metodologías",
+          "SCRUM"
+        ]
+      },
+      {
+        "name": "Trello",
+        "level": "Intermediate",
+        "keywords": [
+          "Metodologías",
+          "SCRUM"
+        ]
+      },
+      {
+        "name": "Jira",
+        "level": "Intermediate",
+        "keywords": [
+          "Metodologías",
+          "SCRUM"
+        ]
+      },
+      {
+        "name": "Inglés",
+        "level": "Intermediate",
+        "keywords": [
+          "Idiomas",
+          "Speaking"
+        ]
       }
     ],
     "languages": [{
@@ -176,87 +224,31 @@
     }],
     "projects": [
       {
-        "name": "Project 1",
-        "isActive": true,
-        "description": "Description...",
-        "highlights": [
-          "Won award at AIHacks 2016"
-        ],
-        "url": "https://project1.com/"
-      },
-      {
-        "name": "Project 2",
+        "name": "JEWM Shop",
         "isActive": false,
-        "description": "Description...",
+        "description": "A modern e-commerce website.",
         "highlights": [
-          "Awarded 'Volunteer of the Month'"
+          "React", "Javascript"
         ],
-        "url": "https://project2.com/"
+        "url": "https://top-shopping-cart-two.vercel.app"
       },
       {
-        "name": "Project 3",
-        "isActive": true,
-        "description": "Description...",
+        "name": "Dragon Ball Memory Card Game",
+        "isActive": false,
+        "description": "A Memory Card Game with Dragon Ball characters.",
         "highlights": [
-          "Elige tu propia aventura"
+          "React", "Javascript"
+        ],
+        "url": "https://dragon-ball-memory-card-game.vercel.app"
+      },
+      {
+        "name": "Pomodoro Timer App",
+        "isActive": false,
+        "description": "A productive timer App based on Pomodoro Technic.",
+        "highlights": [
+          "Python", "Tkinter"
         ],
         "url": "https://project3.com/"
-      },
-      {
-        "name": "Project 4",
-        "isActive": false,
-        "description": "Description...",
-        "highlights": [
-          "En desarrollo"
-        ],
-        "url": "https://project4.com/"
-      },
-      {
-        "name": "Project 5",
-        "isActive": true,
-        "description": "Description...",
-        "highlights": [
-          "+1 millón de visitas",
-          "Multi idioma",
-          "Responsive"
-        ],
-        "url": "https://project5.com/"
-      },
-      {
-        "name": "Project 6",
-        "isActive": false,
-        "description": "Description...",
-        "highlights": [
-          "Javascript & TypeScript"
-        ],
-        "url": "https://project6.com/"
-      },
-      {
-        "name": "Project 7",
-        "isActive": true,
-        "description": "Description...",
-        "highlights": [
-          "Awarded 'Volunteer of the Month'"
-        ],
-        "url": "https://project7.com/"
-      },
-      {
-        "name": "Project 8",
-        "isActive": false,
-        "description": "Description...",
-        "highlights": [
-          "Awarded 'Volunteer of the Month'"
-        ],
-        "url": "https://project8.com/"
-      },
-      {
-        "name": "Project 9",
-        "isActive": true,
-        "description": "Description...",
-        "highlights": [
-          "Awarded 'Volunteer of the Month'"
-        ],
-        "url": "https://project9.com/"
       }
     ]
   }
