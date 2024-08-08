@@ -1,5 +1,5 @@
 ---
-    import { basics } from '@cv'
+    import { basics } from 'cv-english.json'
 
     const { profiles } = basics
 
@@ -67,6 +67,11 @@
                     window.print();
                 }
             },
+            {
+                id: "change-language",
+                title: "Cambiar idioma",
+                
+            },
             ...data,
         ]
     }
@@ -74,7 +79,7 @@
 
 <style>
     @media print {
-        ninja-keys {
+        .no-print {
             display: none!important;
         }
     }

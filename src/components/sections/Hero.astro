@@ -1,6 +1,6 @@
 ---
 // This code is executed in the server
-import { basics } from '@cv'
+import { basics } from 'cv-english.json'
 import Section from '@/components/Section.astro'
 import Mail from '@/icons/Mail.astro'
 import Phone from '@/icons/Phone.astro'
@@ -10,7 +10,7 @@ import GitHub from '@/icons/GitHub.astro'
 import WorldMap from '@/icons/WorldMap.astro'
 
 const { name, label, image, email, phone, location, profiles } = basics
-const { city, region } = location
+const { city, region, countryCode } = location
 
 const SOCIAL_ICONS: Record<string, any> = {
     X,
@@ -30,7 +30,7 @@ const printInfo = [email, phone, linkedInfo?.url].filter(Boolean).join(' • ')
             <h2>{label}</h2>
             <span>
                 <WorldMap />
-                {city}, {region}
+                {city}, {region}, {countryCode}
             </span>
             <footer class="print">
                 {printInfo}
