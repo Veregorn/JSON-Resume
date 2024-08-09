@@ -9,22 +9,28 @@ import KeyboardManager from '@/components/KeyboardManager.astro';
 import Projects from '@/components/sections/Projects.astro';
 import Skills from '@/components/sections/Skills.astro';
 
-import { basics } from 'cv-english.json';
+import { LanguageProvider } from '../context/LanguageContext.jsx';
+import { useLanguage } from '../context/LanguageContext';
+
+import { basics } from 'cv-spanish.json';
+
 const { name, label } = basics;
 ---
 
-<Layout title={`Portafolio de ${name} - ${label}`}>
-	<main>
-		<Hero />
-		<About />
-		<Experience />
-		<Education />
-		<Projects />
-		<Skills />
-	</main>
-	
-	<KeyboardManager />
-</Layout>
+<LanguageProvider>
+	<Layout title={`Portafolio de ${name} - ${label}`}>
+		<main>
+			<Hero />
+			<About />
+			<Experience />
+			<Education />
+			<Projects />
+			<Skills />
+		</main>
+		
+		<KeyboardManager />
+	</Layout>
+</LanguageProvider>
 
 <style>
 	main {

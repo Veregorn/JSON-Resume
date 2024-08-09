@@ -243,7 +243,7 @@
     "projects": [
       {
         "name": "DevNews en Español",
-        "isActive": true,
+        "isActive": false,
         "description": "DevNews en Español es una plataforma que recopila las noticias más importantes del día en el mundo del desarrollo de software, las resume y traduce mediante IA, y las publica automáticamente en un blog. Además, comparte los títulos de estas noticias en LinkedIn, atrayendo a los usuarios a leer más en el blog.",
         "highlights": [
           "HTML", "CSS", "Javascript", "React", "Node.js", "MongoDB", "RESTful API", "JWT", "OpenAI API", "LinkedIn API", "Material UI", "Vercel"
@@ -253,9 +253,9 @@
       {
         "name": "JSON Resume",
         "isActive": false,
-        "description": "Un proyecto creado con Astro y Javascript para generar un CV en formato JSON.",
+        "description": "Un proyecto creado con Astro y Javascript para generar un CV a partir de un formato JSON. Con un diseño minimalista y moderno, este proyecto permite a los usuarios crear su CV de forma rápida y sencilla. Totalmente responsive. Hace uso de 'Keyboard Manager' para el acceso a funciones mediante teclado.",
         "highlights": [
-          "Astro", "Javascript"
+          "Astro", "Javascript", "HTML", "CSS", "Responsive Design", "JSON"
         ],
         "url": "https://grand-bombolone-08bc91.netlify.app/"
       },
@@ -264,27 +264,9 @@
         "isActive": false,
         "description": "Un e-commerce moderno con React en el Frontend. Se hace un uso intensivo de useState y useEffect para gestionar el estado de la aplicación.",
         "highlights": [
-          "React", "Javascript"
+          "React", "Javascript", "HTML", "CSS", "Responsive Design"
         ],
         "url": "https://top-shopping-cart-two.vercel.app"
-      },
-      {
-        "name": "Dragon Ball Memory Card Game",
-        "isActive": false,
-        "description": "Un juego de emparejamiento de cartas con manejo de API y React en el Frontend. Se hace uso de useState y useEffect para gestionar el estado de la aplicación.",
-        "highlights": [
-          "React", "Javascript", "API"
-        ],
-        "url": "https://dragon-ball-memory-card-game.vercel.app"
-      },
-      {
-        "name": "Pomodoro Timer App",
-        "isActive": false,
-        "description": "Una aplicación de productividad basada en la técnica Pomodoro, creada con Python y Tkinter.",
-        "highlights": [
-          "Python", "Tkinter"
-        ],
-        "url": "https://project3.com/"
       }
     ]
   }
