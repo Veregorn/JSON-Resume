@@ -1,11 +1,21 @@
 ---
 import Section from '@/components/Section.astro'
 
-import { basics } from 'cv-english.json'
+import { basics as basicsSpanish } from 'cv-spanish.json';
+import { basics as basicsEnglish } from 'cv-english.json';
+
+export interface Props {
+	language: string;
+}
+
+const { language } = Astro.props;
+
+const basics = language === 'spanish' ? basicsSpanish : basicsEnglish
+
 const { summary } = basics
 ---
 
-<Section title="About me">
+<Section title={language === 'spanish' ? "Sobre mí" : "About me"}>
     <p class="page-section">
         { summary }
     </p>

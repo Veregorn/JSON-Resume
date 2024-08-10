@@ -12,12 +12,12 @@ import Skills from '@/components/sections/Skills.astro';
 
 import { basics } from 'cv-spanish.json';
 
-let language = 'spanish';;
+let language = 'english';
 
 const { name, label } = basics;
 ---
 <!-- Aquí va el código HTML (renderizado por Astro) -->
-<Layout title={`Portafolio de ${name} - ${label}`}>
+<Layout title={`Portfolio of ${name} - ${label}`}>
 	<main>
 		<Hero language={ language } />
 		<About language={ language } />

@@ -1,10 +1,19 @@
 ---
 import Section from '@/components/Section.astro'
 
-import { education } from 'cv-english.json'
+import { education as educationSpanish } from 'cv-spanish.json';
+import { education as educationEnglish } from 'cv-english.json';
+
+export interface Props {
+	language: string;
+}
+
+const { language } = Astro.props;
+
+const education = language === 'spanish' ? educationSpanish : educationEnglish
 ---
 
-<Section title="Education">
+<Section title={language === 'spanish' ? "Educación" : "Education"}>
     <div class="page-section">
         <ul>
             {education.map(({ institution, summary, startDate, endDate }) => {
