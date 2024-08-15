@@ -5,7 +5,7 @@
         "image": "/public/IMG_5668.jpeg",
         "email": "rjbarco@gmail.com",
         "phone": "+34 666 183 566",
-        "url": "",
+        "url": "https://rauljimenez.io",
         "summary": "Passionate about new technologies, I enjoy creating innovative solutions that improve people's lives and contribute to a better world. With a constant focus on learning and updating my knowledge, I am seeking a challenging project where I can apply my experience and collaborate with an enthusiastic and talented team.\n\nI have experience in developing projects using Python and JavaScript, with strong proficiency in React and Node.js, as well as advanced skills in HTML and CSS. My database competencies cover both relational systems like MySQL and non-relational systems like MongoDB.\n\nCurrently, I am improving my English communication skills, especially speaking, with a B2-C1 level, which allows me to interact fluently and work with multicultural teams.\n\nI am familiar with Agile and SCRUM methodologies, implemented through platforms like Jira and Trello, enabling me to integrate and contribute effectively to agile work environments. Additionally, I am a strong advocate of Test Driven Development (TDD), using Jest and more recently Vitest, to ensure code quality and reliability.\n\nMy goal is to be part of a dynamic team where I can continue learning and contribute with my knowledge and enthusiasm, creating solutions that make a difference.",
         "location": {
             "address": "Calle del Labrador, 6, Portal 7, Ático A",
@@ -143,6 +143,14 @@
             "keywords": [
                 "Web Development",
                 "Frontend"
+            ]
+        },
+        {
+            "name": "Astro",
+            "level": "Intermediate",
+            "keywords": [
+              "Desarrollo Web",
+              "Framework"
             ]
         },
         {
